@@ -15,6 +15,7 @@ import java.io.*;
 	}
 
 *****************************************/
+//Time - O((m+n)+(l1-l2)+min(m,n), space - O(1)
 public class Solution {
 
 	public static int findIntersection(LinkedListNode<Integer> firstHead, LinkedListNode<Integer> secondHead) {
